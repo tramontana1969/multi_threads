@@ -7,7 +7,7 @@ Co\Run(function ()
     go(function()
     {
         $start = microtime(true);
-        $file1 = fopen('text1.csv', 'w');
+        $file1 = fopen('text1.md', 'w');
         for ($i = 0; $i <= 50000; $i++) {
             $num = random_int(1, 20);
             $text = "{$num}, ";
@@ -22,7 +22,7 @@ Co\Run(function ()
     go(function()
     {
         $start = microtime(true);
-        $file2 = fopen('text2.csv', 'w');
+        $file2 = fopen('text2.md', 'w');
         for ($i = 0; $i <= 50000; $i++) {
             $num = random_int(1, 20);
             $text = "{$num}, ";

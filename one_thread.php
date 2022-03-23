@@ -29,4 +29,4 @@ function getTime($name1, $name2)
     $end = microtime(true);
     echo $end - $start;
 }
-getTime('text1.csv', 'text2.csv');
+getTime('text1.md', 'text2.md');
